@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>My Page!</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+    <!-- The above is taken from Google Fonts. -->
+
+    <style type="text/css">
+      body{
+        background: #95DAE8;
+        font-family: "Barlow";
+      }
+
+      /* This isn't a naturally available font family! This is taken from Google Fonts, which is earlier referenced. */
+
+      #box{
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        padding: 1em;
+        background: #fff;
+      }
+
+      /* The styling set-up here allows for elements styled with the id "box" to have an absolute position, to have a 50% width and height, and to be vertically and horizontally centered due to margin: auto and the other set-ups. There's also some padding and a white background to distinguish from the teal of the entire document. */
+
+      .special{
+        font-size:12px;
+      }
+
+      h1{
+        text-align: center;
+        color: #418BA3;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="box">
+      <h1>My first webpage!</h1>
+      <p>This is super cool. Mega cool. Mega super amazing awesome. Certainly <strong>much more so</strong> than <em>Keith Leonardo</em> would ever be cool.</p>
+      <br />
+      <p class="special">Developers' Society can be found on Facebook at <a href="http://fb.com/devsocietyph">this link!</a></p>
+    </div>
+
+    <!-- Our content is wrapped in a div given the id "box," which centers everything. -->
+
+</html>
