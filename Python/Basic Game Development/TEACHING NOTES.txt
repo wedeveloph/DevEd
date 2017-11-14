@@ -1,0 +1,60 @@
+WHEN DEMONSTRATING THE CODE:
+- Divide the code into sections
+	- Base it on the concepts that are needed to be taught at the moment
+- Always demonstrate section-by-section, not line-by-line as you see in the final source code
+	- This will help the audience familiarize themselves with the concepts
+	- Information will be less cluttered, lower risk of information overload
+- Always demonstrate code sections in this order:
+	- Importing modules
+	- Initializing pygame
+	- Writing main() function
+	- Creating display surface
+	- Game loop
+		- Events
+		- Updating display
+		- Framerate capping
+	- Game objects
+	- Game logic
+	- Other rendering
+
+GENERAL FLOW OF TEACHING:
+- Introduce python and pygame and how you could make totes awesome things with it
+	- AstroJumper as an example of my first pygame game
+	- Centurion as an example of an awesome game
+
+- Teach them how to write their first video game
+	- First, make a program with pygame ("My first game!" as a caption, black screen)
+		- Let them run this first as a gentle introduction into game development
+
+	- Add events to make the background color change (adds interactivity)
+	- Explain the following concepts, step by step:
+		- Importing pygame
+		- Main function
+		- Display surface
+			- Recap on variables and functions
+		- Colors
+			- Recap on tuples
+		- Game loop
+		- Events
+		- Updating the display surface
+		- Framerate capping
+
+- Walk them through making their first actual game
+	- Explain the following concepts as they go along the walkthrough:
+		- Pixel coordinate system
+		- Animation
+		- Blitting
+		- Bounding boxes
+			- Position
+			- Dimensions
+			- Velocity
+		- Making game objects that represent these ideas
+	- Create a simple game where they avoid falling items
+		- They can move the character with the arrow keys
+		- They can shoot the objects to increase their score
+		- They lose if they touch the falling object or if an object gets past the screen
+		- The player MUST kill all the objects
+	- Explain collision detection between bounding boxes
+
+If there is extra time, add powerups to the game to make the player invunerable.
+Remember to clarify misunderstood concepts and make sure that all of them are following along.
