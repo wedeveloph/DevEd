@@ -1,4 +1,4 @@
 
 
 # Python
-* (https://python.swaroopch.com/)[A Byte of Python]
+* [A Byte of Python](https://python.swaroopch.com/)
