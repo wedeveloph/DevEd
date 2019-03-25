@@ -1,7 +1,8 @@
 # DevEd
+
 Look into our collections of full courseware—ready for adaptation and usage in talks, workshops, classrooms, communities, and clubs. These are student-created sets on certain projects or topics that encompass sample projects, slidedecks, instructor guides, and more. All materials are reusable, editable, and distributable.
 
-Our materials are hosted on the Developers' Society github.
+Our materials are hosted on the Developh Github (wedeveloph).
 
 ## What is this repository?
 
